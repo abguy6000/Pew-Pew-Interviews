@@ -1,0 +1,158 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #8fdb02;
+  }
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #420d97;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.logo {
+    flex: 1;
+    user-select: none;
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 0px;
+  }
+
+.logo img {
+    max-width: 150px;
+    border-radius: 5px;
+    user-select: none;
+    margin-left: 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    color: #424040;
+}
+
+#home {
+    margin-left: 455px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#king {
+    width: 600px;
+    background-color: #168154;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(16,0,233);
+    margin: 0 auto; /* Center the header horizontally */
+    margin-top: 50px;
+}
+
+#wel {
+    user-select: none;
+    margin-left: 212px;
+}
+
+#king:hover {
+    box-shadow: inset;
+    box-shadow: 0px 0px 10px rgb(16, 0, 233);
+}
+
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+  }
+  
+  #intro h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #intro audio {
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(151, 144, 144, 0.767);
+    user-select: none;
+  }
+  
+  
+  #intro audio:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 10px rgba(151, 144, 144, 0.767);
+  }
+  
+
+#log {
+    transition: transform 0.2s ease-in-out;
+}
+
+#log:hover{
+    transform: scale(1.04);
+}
+
+
+
+#hom:hover {
+    opacity: 0.9;
+}
+
+#sch:hover {
+    opacity: 0.9;
+}
+
+#int:hover {
+    opacity: 0.9;
+}
+
+#pl:hover {
+    opacity: 0.9;
+}
